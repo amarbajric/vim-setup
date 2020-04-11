@@ -1,0 +1,24 @@
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+set number
+set relativenumber
+set laststatus=2
+set noshowmode
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
+map <C-n> :NERDTreeToggle<CR>
+let g:lens#disabled_filetypes = ['nerdtree', 'fzf']
+let g:animate#easing_func = 'animate#ease_linear'
+let g:fzf_layout = { 'down': '~40%' }
+let g:NERDTrimTrailingWhitespace = 1
+let g:NERDSpaceDelims = 1
+let g:NERDToggleCheckAllLines = 1
+nnoremap <C-K> :call animate#window_delta_height(5)<CR>
+nnoremap <C-J> :call animate#window_delta_height(-5)<CR>
+nnoremap <C-L> :call animate#window_delta_width(5)<CR>
+nnoremap <C-H> :call animate#window_delta_width(-5)<CR>
+" for coloring lightline.vim
+if !has('gui_running')
+  set t_Co=256
+endif
+
