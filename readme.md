@@ -1,6 +1,6 @@
 # vim-setup
 ## This repository is used for setting up custom VIM plugins alongisde a custom `.vimrc` file that contains various options.
-> Keep in mind that this repository contains a set-up shell script that was created for custom purposes. If it suits you, either fully or partially, feel free to use it!
+> Keep in mind that this repository contains a vim set-up that was created for custom purposes. If it suits you, either fully or partially, feel free to use and or modify it!
 
 ## Included Plugins
 - [lightline.vim](https://github.com/itchyny/lightline.vim) (A light and configurable statusline/tabline plugin for Vim)
