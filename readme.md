@@ -32,7 +32,8 @@
 - `vim` (version >= 8.0.0)
 
 ## Installation
-TBD
+1. `git clone https://github.com/amarbajric/vim-setup $HOME/vim-setup`
+2. `$HOME/vim-setup/vim-install.sh`
 
 ## Uninstallation
-TBD
+`$HOME/vim-setup/vim-uninstall.sh`
