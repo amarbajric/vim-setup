@@ -6,7 +6,8 @@ set relativenumber
 set laststatus=2
 set noshowmode
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
-map <C-n> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeToggle <CR>
+let g:NERDTreeWinSize=10
 let g:lens#disabled_filetypes = ['nerdtree', 'fzf']
 let g:animate#easing_func = 'animate#ease_linear'
 let g:fzf_layout = { 'down': '~40%' }
